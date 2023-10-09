@@ -186,7 +186,7 @@ body {
 
 article {
   background-color: rgba(22, 22, 22, 0.795) !important;
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(3px);
 }
 
 .sidebar,
