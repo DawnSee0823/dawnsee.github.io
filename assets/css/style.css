@@ -53,8 +53,8 @@
   --white-2: hsl(0, 0%, 98%);
   --orange-yellow-crayola: hsl(45, 100%, 72%);
   --vegas-gold: hsl(45, 54%, 58%);
-  --light-gray: hsl(0, 0%, 84%);
-  --light-gray-70: hsla(0, 0%, 84%, 0.7);
+  --light-gray: hsl(0, 0%, 91%);
+  --light-gray-70: hsla(0, 1%, 85%, 0.897);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
 
   /**
@@ -167,8 +167,8 @@ body {
 
 body {
   background-image:
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.808)),
-    url('../images/bg.jpg');
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.171), rgba(0, 0, 0, 0.108)),
+    url('../images/background.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
