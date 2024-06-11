@@ -14,7 +14,7 @@ const sidebarBtn = document.querySelector("[data-sidebar-btn]");
 // sidebar toggle functionality for mobile
 sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); });
 
-
+const loader = document.getElementsByClassName('loader')[0]
 
 // testimonials variables
 const testimonialsItem = document.querySelectorAll("[data-testimonials-item]");
@@ -32,6 +32,12 @@ const testimonialsModalFunc = function () {
   modalContainer.classList.toggle("active");
   overlay.classList.toggle("active");
 }
+
+// loader animation 
+
+setTimeout(() => {
+  loader.style.display = 'none'
+}, 3100)
 
 // add click event to all modal items
 for (let i = 0; i < testimonialsItem.length; i++) {
