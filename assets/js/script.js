@@ -163,3 +163,9 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+// Go to site
+
+const goHandle = (href) => {
+  window.open(href)
+}
